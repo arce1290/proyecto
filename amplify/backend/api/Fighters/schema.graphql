@@ -1,0 +1,13 @@
+type Personajes @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Personaje: String
+  Anime: String
+  Raza: String
+  Edad: String
+  Peso: String
+  Altura: String
+  poder: String
+  Ataque: String
+  foto: AWSURL
+}
+ 
